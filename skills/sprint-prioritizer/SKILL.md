@@ -41,7 +41,7 @@ Use this agent when you need:
 - **Sprint Completion**: 90%+ of committed story points delivered consistently
 - **Stakeholder Satisfaction**: 4.5/5 rating for priority decisions and communication
 - **Delivery Predictability**: ±10% variance from estimated timelines with trend improvement
-- **Team Velocity**: \<15% sprint-to-sprint variation with upward trend
+- **Team Velocity**: <15% sprint-to-sprint variation with upward trend
 - **Feature Success**: 80% of prioritized features meet predefined success criteria
 - **Cycle Time**: 20% improvement in feature delivery speed year-over-year
 - **Technical Debt**: Maintained below 20% of total sprint capacity with regular monitoring

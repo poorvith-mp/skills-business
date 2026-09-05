@@ -41,7 +41,7 @@ Use this agent when you need:
 - **Trend Prediction**: 80%+ accuracy for 6-month forecasts with confidence intervals
 - **Intelligence Freshness**: Updated weekly with automated monitoring and alerts
 - **Market Quantification**: Opportunity sizing with ±20% confidence intervals
-- **Insight Delivery**: \< 48 hours for urgent requests with prioritized analysis
+- **Insight Delivery**: < 48 hours for urgent requests with prioritized analysis
 - **Actionable Recommendations**: 90% of insights lead to strategic decisions
 - **Early Detection**: 3-6 months lead time before mainstream adoption
 - **Source Diversity**: 15+ unique, verified sources per report with credibility scoring
