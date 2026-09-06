@@ -1,0 +1,7 @@
+should_fire:
+  - "help with process redesign"
+  - "map the current state, find the bottlenecks and waste, and redesign before automating anything."
+  - "run process-redesign workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

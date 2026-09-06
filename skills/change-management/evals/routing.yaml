@@ -1,0 +1,7 @@
+should_fire:
+  - "help with change management"
+  - "plan change with adkar and kotter"
+  - "run change-management workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

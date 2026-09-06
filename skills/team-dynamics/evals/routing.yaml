@@ -1,0 +1,7 @@
+should_fire:
+  - "help with team dynamics"
+  - "diagnose motivation, conflict, structure and the cross-cultural blind spots nobody names out loud."
+  - "run team-dynamics workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

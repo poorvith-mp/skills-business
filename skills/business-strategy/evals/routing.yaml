@@ -1,0 +1,7 @@
+should_fire:
+  - "help with business strategy"
+  - "decide which markets and business models to play in"
+  - "run business-strategy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

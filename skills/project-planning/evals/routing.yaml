@@ -1,0 +1,7 @@
+should_fire:
+  - "help with project planning"
+  - "convert a spec into scoped, sequenced tasks with estimates, dependencies, timeline and owners."
+  - "run project-planning workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

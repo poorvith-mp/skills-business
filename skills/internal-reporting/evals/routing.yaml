@@ -1,0 +1,7 @@
+should_fire:
+  - "help with internal reporting"
+  - "turn company data into dashboards and kpi tracking with a stated recommendation. not channel performance."
+  - "run internal-reporting workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

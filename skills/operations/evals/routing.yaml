@@ -1,0 +1,7 @@
+should_fire:
+  - "help with operations"
+  - "own process, capacity planning, exception handling and performance tracking day to day."
+  - "run operations workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

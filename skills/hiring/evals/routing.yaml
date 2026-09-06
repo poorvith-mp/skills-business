@@ -1,0 +1,7 @@
+should_fire:
+  - "help with hiring"
+  - "run it end to end"
+  - "run hiring workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

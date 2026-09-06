@@ -1,0 +1,7 @@
+should_fire:
+  - "help with chief of staff"
+  - "run the operating cadence behind a leader"
+  - "run chief-of-staff workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

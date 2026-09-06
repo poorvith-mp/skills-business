@@ -1,0 +1,7 @@
+should_fire:
+  - "help with negotiation"
+  - "prepare with batna assessment, concession planning and scripts for contracts, vendor terms and salary."
+  - "run negotiation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

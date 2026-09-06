@@ -1,0 +1,7 @@
+should_fire:
+  - "help with okrs"
+  - "write measurable objectives and key results with cascading alignment from company to individual."
+  - "run okrs workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

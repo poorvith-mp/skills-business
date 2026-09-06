@@ -1,0 +1,7 @@
+should_fire:
+  - "help with market trends"
+  - "identify where a market is heading and size the opportunity, with sourced evidence rather than vibes."
+  - "run market-trends workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

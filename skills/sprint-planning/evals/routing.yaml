@@ -1,0 +1,7 @@
+should_fire:
+  - "help with sprint planning"
+  - "prioritise features, allocate capacity and make the scope trade-offs explicit."
+  - "run sprint-planning workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

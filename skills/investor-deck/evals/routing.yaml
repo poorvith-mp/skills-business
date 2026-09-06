@@ -1,0 +1,7 @@
+should_fire:
+  - "help with investor deck"
+  - "build the raise narrative"
+  - "run investor-deck workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

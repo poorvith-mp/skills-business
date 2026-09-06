@@ -1,0 +1,7 @@
+should_fire:
+  - "help with portfolio ops"
+  - "allocate resources and sequence work across several projects competing for the same people."
+  - "run portfolio-ops workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

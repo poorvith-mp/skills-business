@@ -1,0 +1,7 @@
+should_fire:
+  - "help with business plan"
+  - "build the plan"
+  - "run business-plan workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with supply chain"
+  - "plan strategic sourcing, supplier development, quality control and logistics."
+  - "run supply-chain workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

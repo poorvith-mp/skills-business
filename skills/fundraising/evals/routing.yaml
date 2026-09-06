@@ -1,0 +1,7 @@
+should_fire:
+  - "help with fundraising"
+  - "run the raise"
+  - "run fundraising workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

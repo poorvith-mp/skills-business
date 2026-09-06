@@ -1,0 +1,7 @@
+should_fire:
+  - "help with product management"
+  - "own the lifecycle"
+  - "run product-management workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

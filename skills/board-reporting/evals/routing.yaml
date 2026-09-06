@@ -1,0 +1,7 @@
+should_fire:
+  - "help with board reporting"
+  - "draft the board pack"
+  - "run board-reporting workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with alliances"
+  - "structure channel partners, resellers and strategic alliances"
+  - "run alliances workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
