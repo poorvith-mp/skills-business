@@ -1,7 +1,16 @@
 should_fire:
-  - "help with negotiation"
-  - "prepare with batna assessment, concession planning and scripts for contracts, vendor terms and salary."
-  - "run negotiation workflow"
+  - 'prepare our negotiation strategy and BATNA for a 6-figure enterprise software deal'
+  - 'how to respond when an enterprise buyer demands a 40% discount or unlimited seats'
+  - 'negotiate non-monetary deal terms: case study rights, multi-year commitments, payment terms'
+  - 'structure a commercial partnership negotiation to ensure balanced mutual value'
+  - 'roleplay potential counter-offers and objections in an upcoming contract renewal'
+  - 'identify leverage points and tradeable concessions before entering negotiations'
+  - 'handle aggressive procurement tactics without damaging the long-term relationship'
+  - 'negotiate favorable vendor payment terms to preserve working capital and runway'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'draft formal legal contract clauses and redlines'
+    expect: 'contract-drafting'
+  - prompt: 'evaluate legal and regulatory compliance obligations'
+    expect: 'regulatory-compliance'
+  - prompt: 'handle day-to-day sales pipeline qualification calls'
+    expect: 'discovery'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with team dynamics"
-  - "diagnose motivation, conflict, structure and the cross-cultural blind spots nobody names out loud."
-  - "run team-dynamics workflow"
+  - 'facilitate a difficult alignment conversation between co-founders with divergent visions'
+  - 'resolve passive-aggressive tension between engineering and product leadership'
+  - 'build psychological safety and constructive debate within an executive team'
+  - 'diagnose why cross-functional collaboration is breaking down between sales and marketing'
+  - 'structure an offsite workshop to realign team values and reset mutual expectations'
+  - 'coach a manager on resolving interpersonal conflict between two senior team members'
+  - 'overcome the Five Dysfunctions of a Team: absence of trust, fear of conflict, lack of commitment'
+  - 'improve executive communication hygiene to prevent misunderstandings and resentment'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write constructive 1-on-1 performance review feedback'
+    expect: 'feedback-writing'
+  - prompt: 'structure structured interviews and hiring scorecards'
+    expect: 'hiring'
+  - prompt: 'manage formal company-wide organizational restructuring'
+    expect: 'change-management'

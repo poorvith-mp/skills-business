@@ -1,7 +1,16 @@
 should_fire:
-  - "help with vendor selection"
-  - "run rfi/rfp, scoring matrices, contract negotiation and vendor performance tracking."
-  - "run vendor-selection workflow"
+  - 'run a structured Request for Proposal (RFP) process for a new cloud telephony provider'
+  - 'evaluate and score 4 enterprise CRM vendors against our technical requirements'
+  - 'conduct total cost of ownership (TCO) analysis comparing on-premise vs SaaS solutions'
+  - 'design a vendor evaluation rubric with weighted criteria: security, support, cost'
+  - 'audit third-party vendor security and SOC 2 certifications before onboarding'
+  - 'negotiate enterprise software contract terms to lock in volume pricing discounts'
+  - 'manage vendor contract renewal deadlines to prevent automatic price increases'
+  - 'establish procurement guidelines and approval thresholds for employee software purchases'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'negotiate commercial deals where you are the seller pitching a buyer'
+    expect: 'negotiation'
+  - prompt: 'review legal contract terms and draft indemnification clauses'
+    expect: 'contract-review'
+  - prompt: 'select engineering frameworks and developer libraries'
+    expect: 'stack-choice'

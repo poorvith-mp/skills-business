@@ -1,7 +1,9 @@
 ---
 name: alliances
+group: Operations
 description: >-
-  Structure channel partners, resellers and strategic alliances: partner tiers, deal registration, revenue share and JV terms.
+  Structure channel partners, resellers, and alliances: partner tiers, deal registration, and JV
+  terms. Use when structuring corporate alliances or JVs.
 ---
 # Alliances
 

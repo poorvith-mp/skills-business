@@ -1,7 +1,9 @@
 ---
 name: fundraising
+group: Fundraising and board
 description: >-
-  Run the raise: target investor list, data room, diligence responses, term sheet review and close sequencing.
+  Run the raise: target investor list, data room, diligence responses, term sheet review and close
+  sequencing. Use when managing investor pipelines, due diligence, or term sheet terms.
 ---
 # Fundraising
 

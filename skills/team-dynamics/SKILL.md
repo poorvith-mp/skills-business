@@ -1,7 +1,9 @@
 ---
 name: team-dynamics
+group: People
 description: >-
-  Diagnose motivation, conflict, structure and the cross-cultural blind spots nobody names out loud.
+  Diagnose motivation, conflict, structure and the cross-cultural blind spots nobody names out
+  loud. Use when resolving co-founder friction, team conflict, or trust issues.
 ---
 # Team Dynamics
 

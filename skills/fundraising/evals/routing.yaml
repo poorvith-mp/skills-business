@@ -1,7 +1,16 @@
 should_fire:
-  - "help with fundraising"
-  - "run the raise"
-  - "run fundraising workflow"
+  - 'manage our investor pipeline, meeting tracking, and follow-ups during a fundraise'
+  - 'set up a clean due diligence virtual data room (VDR) checklist for Series A'
+  - 'evaluate and compare term sheets: liquidation preferences, participation, and control'
+  - 'calculate post-money dilution from SAFEs, convertible notes, and option pools'
+  - 'prepare answers to technical and commercial due diligence questions from investors'
+  - 'how do we build momentum and create competitive tension between VC firms'
+  - 'structure investor update emails during our fundraising process'
+  - 'navigate negotiations around board seat allocation and protective provisions'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write and design the slides for an investor pitch deck'
+    expect: 'investor-deck'
+  - prompt: 'model capitalization tables, waterfalls, and dilution scenarios'
+    expect: 'cap-table'
+  - prompt: 'draft legally binding founder equity agreements and bylaws'
+    expect: 'company-formation'

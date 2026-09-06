@@ -1,7 +1,9 @@
 ---
 name: operations
+group: Operations
 description: >-
-  Own process, capacity planning, exception handling and performance tracking day to day.
+  Own process, capacity planning, exception handling and performance tracking day to day. Use when
+  running daily business operations, workflows, or SOP execution.
 ---
 # Operations
 

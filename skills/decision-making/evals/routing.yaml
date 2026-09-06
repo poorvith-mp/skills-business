@@ -1,7 +1,16 @@
 should_fire:
-  - "help with decision making"
-  - "generate the option set, then choose"
-  - "run decision-making workflow"
+  - 'help us make a high-stakes build vs buy decision using a weighted scoring matrix'
+  - 'apply second-order thinking and inversion to evaluate this acquisition offer'
+  - 'structure a RACI matrix and decision framework for our leadership team'
+  - 'facilitate a decision tree analysis comparing two mutually exclusive paths'
+  - 'evaluate the trade-offs of expanding internationally vs doubling down on our home market'
+  - 'run a pre-mortem to anticipate why our planned product pivot might fail'
+  - 'help our executive team break a deadlock between two competing product visions'
+  - 'stress-test this major capital expenditure decision against worst-case scenarios'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'explore technical software architecture alternatives and trade-offs'
+    expect: 'solution-exploration'
+  - prompt: 'facilitate sprint planning and task estimations for engineering'
+    expect: 'sprint-planning'
+  - prompt: 'resolve interpersonal conflicts between co-founders'
+    expect: 'team-dynamics'

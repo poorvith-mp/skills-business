@@ -1,7 +1,9 @@
 ---
 name: change-management
+group: People
 description: >-
-  Plan change with ADKAR and Kotter: impact assessment, stakeholder alignment, adoption tracking and post-merger day-one readiness.
+  Plan organizational change with ADKAR: impact assessment, alignment, and adoption tracking. Use
+  when leading company restructuring or M&A integration.
 ---
 # Change Management
 

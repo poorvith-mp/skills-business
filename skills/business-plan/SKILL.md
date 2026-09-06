@@ -1,7 +1,9 @@
 ---
 name: business-plan
+group: Strategy
 description: >-
-  Build the plan: market analysis, value proposition, revenue model and go-to-market.
+  Build the plan: market analysis, value proposition, revenue model and go-to-market. Use when
+  drafting formal business plans, executive summaries, or pro formas.
 ---
 # Business Plan
 

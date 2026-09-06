@@ -1,7 +1,9 @@
 ---
 name: internal-reporting
+group: Reporting
 description: >-
-  Turn company data into dashboards and KPI tracking with a stated recommendation. Not channel performance.
+  Turn company data into dashboards and KPI tracking with a stated recommendation. Not channel
+  performance. Use when building company KPI scorecards, department reviews, or updates.
 ---
 # Internal Reporting
 

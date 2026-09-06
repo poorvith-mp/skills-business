@@ -1,7 +1,16 @@
 should_fire:
-  - "help with internal reporting"
-  - "turn company data into dashboards and kpi tracking with a stated recommendation. not channel performance."
-  - "run internal-reporting workflow"
+  - 'build a cross-departmental operational KPI dashboard for executive review'
+  - 'compile weekly progress updates across engineering, sales, and support into one brief'
+  - 'structure monthly department performance reviews to track operational milestones'
+  - 'design standardized operational scorecards tracking team metrics and headcount'
+  - 'create an automated executive summary aggregating business performance data'
+  - 'highlight operational bottlenecks and resource constraints in weekly leadership reports'
+  - 'track project delivery timelines, SLA compliance, and operational throughput'
+  - 'streamline internal reporting to eliminate manual status meetings'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'compile monthly marketing channel performance and lead acquisition reports'
+    expect: 'marketing-report'
+  - prompt: 'prepare quarterly board meeting decks for external investors'
+    expect: 'board-reporting'
+  - prompt: 'build 3-statement financial accounting statements'
+    expect: 'financial-modeling'

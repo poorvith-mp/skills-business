@@ -1,7 +1,9 @@
 ---
 name: business-strategy
+group: Strategy
 description: >-
-  Decide which markets and business models to play in: market entry, model design and growth strategy.
+  Decide which markets and business models to play in: market entry, model design and growth
+  strategy. Use when shaping competitive moats, market entry, or strategic choices.
 ---
 # Business Strategy
 

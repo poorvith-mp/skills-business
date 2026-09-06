@@ -1,7 +1,9 @@
 ---
 name: negotiation
+group: Fundraising and board
 description: >-
-  Prepare with BATNA assessment, concession planning and scripts for contracts, vendor terms and salary.
+  Prepare with BATNA assessment, concession planning and scripts for contracts, vendor terms and
+  salary. Use when preparing high-stakes enterprise deals, contracts, or partnership terms.
 ---
 # Negotiation
 

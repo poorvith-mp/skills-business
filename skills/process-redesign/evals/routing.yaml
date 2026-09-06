@@ -1,7 +1,16 @@
 should_fire:
-  - "help with process redesign"
-  - "map the current state, find the bottlenecks and waste, and redesign before automating anything."
-  - "run process-redesign workflow"
+  - 'map our end-to-end customer onboarding workflow to find where delays occur'
+  - 'redesign our approval process to reduce turnaround time from 5 days to 4 hours'
+  - 'conduct a Lean value stream mapping exercise to eliminate operational waste'
+  - 'simplify a bloated 14-step invoice approval process into 3 automated steps'
+  - 'identify handoff friction between sales and customer success during deal closing'
+  - 'audit our hiring workflow to cut time-to-hire in half without sacrificing quality'
+  - 'document current-state vs future-state workflow maps with clear efficiency gains'
+  - 'automate manual data entry steps in our order fulfillment pipeline'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'run day-to-day operations and execute existing procedures'
+    expect: 'operations'
+  - prompt: 'build technical workflow automations using n8n or Zapier'
+    expect: 'n8n'
+  - prompt: 'lead organizational change management during a company restructuring'
+    expect: 'change-management'

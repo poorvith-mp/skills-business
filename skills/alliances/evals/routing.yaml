@@ -1,7 +1,16 @@
 should_fire:
-  - "help with alliances"
-  - "structure channel partners, resellers and strategic alliances"
-  - "run alliances workflow"
+  - 'structure a strategic alliance with a major industry player to access their enterprise distribution'
+  - 'design a channel partner revenue-sharing model for system integrators and resellers'
+  - 'draft a Memorandum of Understanding (MOU) outlining alliance objectives and governance'
+  - 'establish joint go-to-market commitments for a multi-year corporate alliance'
+  - 'manage relationship governance, executive steering committees, and alliance reviews'
+  - 'evaluate prospective alliance partners for strategic fit, alignment, and antitrust risks'
+  - 'create an enablement package to train alliance partner sales reps on our technology'
+  - 'resolve channel conflict between direct sales teams and alliance reseller partners'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'run tactical co-marketing campaigns and joint webinars with another tool'
+    expect: 'partnerships'
+  - prompt: 'manage enterprise sales procurement negotiations'
+    expect: 'negotiation'
+  - prompt: 'draft legally binding corporate merger and acquisition agreements'
+    expect: 'company-formation'

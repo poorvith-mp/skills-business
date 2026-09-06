@@ -1,7 +1,16 @@
 should_fire:
-  - "help with project planning"
-  - "convert a spec into scoped, sequenced tasks with estimates, dependencies, timeline and owners."
-  - "run project-planning workflow"
+  - 'create a detailed project schedule and work breakdown structure (WBS) for this launch'
+  - 'identify critical path dependencies and resource constraints across engineering and marketing'
+  - 'build a cross-functional project milestone roadmap with clear ownership and deliverables'
+  - 'manage project risk registers, tracking potential schedule slippages and blockers'
+  - 'plan the operational rollout of a company-wide software migration across 4 departments'
+  - 'calculate project timelines and schedule buffer using PERT estimation techniques'
+  - 'establish clear project status reporting cadence and stakeholder communication channels'
+  - 'coordinate deliverables between internal design, engineering, and external contractors'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'break a single engineering change into reviewable developer steps'
+    expect: 'implementation-plan'
+  - prompt: 'manage 2-week agile sprint backlogs for a single software team'
+    expect: 'sprint-planning'
+  - prompt: 'define company-wide quarterly OKRs and key results'
+    expect: 'okrs'

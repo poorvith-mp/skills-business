@@ -1,7 +1,16 @@
 should_fire:
-  - "help with sprint planning"
-  - "prioritise features, allocate capacity and make the scope trade-offs explicit."
-  - "run sprint-planning workflow"
+  - 'facilitate our 2-week engineering sprint planning session and backlog grooming'
+  - 'estimate story points and team velocity using planning poker guidelines'
+  - 'structure our sprint backlog so commitments are realistic and dependencies clear'
+  - 'run an effective sprint retrospective to uncover actionable process improvements'
+  - 'handle scope creep when urgent bugs are injected into an active sprint'
+  - 'break down large user stories into atomic tasks that fit within a single sprint'
+  - 'calculate team capacity accounting for holidays, on-call rotations, and sick leave'
+  - 'track sprint burndown progress and identify early signs of milestone slippage'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write feature PRDs and define long-term product roadmaps'
+    expect: 'product-management'
+  - prompt: 'plan complex multi-team cross-functional project schedules'
+    expect: 'project-planning'
+  - prompt: 'write the actual code implementation for sprint tasks'
+    expect: 'backend-build'

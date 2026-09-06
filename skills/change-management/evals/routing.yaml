@@ -1,7 +1,16 @@
 should_fire:
-  - "help with change management"
-  - "plan change with adkar and kotter"
-  - "run change-management workflow"
+  - 'apply the ADKAR change management model to guide employees through a software transition'
+  - 'plan internal communications and stakeholder alignment for an organizational restructuring'
+  - 'manage employee anxiety and resistance during a major company strategy pivot'
+  - 'design a day-one integration plan following the acquisition of a smaller startup'
+  - 'establish change champion networks across departments to accelerate software adoption'
+  - 'track organizational change readiness and measure employee sentiment during transitions'
+  - 'facilitate town hall Q&A sessions addressing company changes with transparency'
+  - 'align leadership messaging to present a unified narrative during difficult shifts'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'redesign operational workflows and eliminate process waste'
+    expect: 'process-redesign'
+  - prompt: 'manage executive team dynamics and co-founder communication'
+    expect: 'team-dynamics'
+  - prompt: 'plan technical database or software architecture migrations'
+    expect: 'migration'

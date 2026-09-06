@@ -1,7 +1,16 @@
 should_fire:
-  - "help with supply chain"
-  - "plan strategic sourcing, supplier development, quality control and logistics."
-  - "run supply-chain workflow"
+  - 'model supply chain lead times and calculate safe reorder points for inventory'
+  - 'evaluate freight shipping options, customs duties, and landed costs for imports'
+  - 'audit contract manufacturer proposals for component fabrication and assembly'
+  - 'manage inventory turnover and avoid stockouts during seasonal demand peaks'
+  - 'design a multi-supplier sourcing strategy to reduce single-point-of-failure risks'
+  - 'track Bill of Materials (BOM) cost changes across electronic hardware revisions'
+  - 'optimize warehouse fulfillment, pick-and-pack workflows, and 3PL logistics'
+  - 'handle supply chain disruptions, component shortages, and expedited shipping'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage digital SaaS operations and software tooling'
+    expect: 'operations'
+  - prompt: 'select and procure corporate enterprise software vendors'
+    expect: 'vendor-selection'
+  - prompt: 'track software unit economics and SaaS customer metrics'
+    expect: 'unit-economics'

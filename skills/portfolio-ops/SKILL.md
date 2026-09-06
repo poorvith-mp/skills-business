@@ -1,7 +1,9 @@
 ---
 name: portfolio-ops
+group: Operations
 description: >-
-  Allocate resources and sequence work across several projects competing for the same people.
+  Allocate resources and sequence work across several projects competing for the same people. Use
+  when orchestrating multiple business units, ventures, or shared ops.
 ---
 # Portfolio Ops
 

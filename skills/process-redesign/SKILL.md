@@ -1,7 +1,9 @@
 ---
 name: process-redesign
+group: Operations
 description: >-
   Map the current state, find the bottlenecks and waste, and redesign before automating anything.
+  Use when mapping, auditing, or eliminating waste in operational workflows.
 ---
 # Process Redesign
 

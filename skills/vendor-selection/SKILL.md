@@ -1,7 +1,9 @@
 ---
 name: vendor-selection
+group: Operations
 description: >-
-  Run RFI/RFP, scoring matrices, contract negotiation and vendor performance tracking.
+  Run RFI/RFP, scoring matrices, contract negotiation and vendor performance tracking. Use when
+  evaluating RFP proposals, scoring vendors, or procurement.
 ---
 # Vendor Selection
 

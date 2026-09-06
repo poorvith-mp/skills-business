@@ -1,7 +1,16 @@
 should_fire:
-  - "help with okrs"
-  - "write measurable objectives and key results with cascading alignment from company to individual."
-  - "run okrs workflow"
+  - 'draft ambitious, measurable Objectives and Key Results (OKRs) for Q3'
+  - 'cascade company-level OKRs down to engineering and product team objectives'
+  - 'ensure our Key Results are outcome-driven metrics rather than activity checklists'
+  - 'establish a quarterly OKR scoring rubric and mid-quarter check-in cadence'
+  - 'align cross-functional teams around a shared set of top-line company goals'
+  - 'critique these draft OKRs to eliminate vague, unmeasurable, or sandbagged targets'
+  - 'how many OKRs should an early-stage startup set without losing focus'
+  - 'transition our company goal-setting process from annual plans to quarterly OKRs'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'shape long-term 5-year corporate competitive strategy'
+    expect: 'business-strategy'
+  - prompt: 'build monthly operational KPI dashboard reporting'
+    expect: 'internal-reporting'
+  - prompt: 'plan sprint tasks and engineering user stories'
+    expect: 'sprint-planning'

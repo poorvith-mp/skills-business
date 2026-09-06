@@ -1,7 +1,16 @@
 should_fire:
-  - "help with portfolio ops"
-  - "allocate resources and sequence work across several projects competing for the same people."
-  - "run portfolio-ops workflow"
+  - 'manage shared operational services (finance, legal, HR) across 4 portfolio companies'
+  - 'establish standardized reporting and financial metrics across multiple business units'
+  - 'allocate capital and executive attention across a holding company''s ventures'
+  - 'identify cross-selling and technological synergies between portfolio products'
+  - 'create a standardized operational playbook for launching or integrating new ventures'
+  - 'track performance scorecards comparing margins and growth across business lines'
+  - 'manage governance, board seats, and compliance oversight for multiple operating entities'
+  - 'streamline shared vendor procurement to leverage group purchasing power across companies'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage daily operations within a single individual company'
+    expect: 'operations'
+  - prompt: 'redesign a specific operational process within a business unit'
+    expect: 'process-redesign'
+  - prompt: 'manage venture capital fundraising and investor relations'
+    expect: 'fundraising'

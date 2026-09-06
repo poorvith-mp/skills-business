@@ -1,7 +1,9 @@
 ---
 name: supply-chain
+group: Operations
 description: >-
-  Plan strategic sourcing, supplier development, quality control and logistics.
+  Plan strategic sourcing, supplier development, quality control and logistics. Use when managing
+  physical inventory, manufacturing lead times, or logistics.
 ---
 # Supply Chain
 

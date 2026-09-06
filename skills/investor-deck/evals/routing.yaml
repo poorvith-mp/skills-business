@@ -1,7 +1,16 @@
 should_fire:
-  - "help with investor deck"
-  - "build the raise narrative"
-  - "run investor-deck workflow"
+  - 'structure a compelling 12-slide pitch deck for our upcoming Series A round'
+  - 'write punchy, narrative-driven slide titles and bullets for our problem/solution slides'
+  - 'how should we present our traction, retention curves, and revenue growth to VCs'
+  - 'refine our market sizing slide (TAM, SAM, SOM) for an institutional investor deck'
+  - 'create an appendix slide answering common investor diligence questions on unit economics'
+  - 'reorder our deck narrative to lead with our strongest technological moat'
+  - 'critique our pitch deck slides from the perspective of a Tier 1 venture partner'
+  - 'draft speaker notes for founders presenting their seed funding pitch deck'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage the investor pipeline, due diligence data room, and term sheets'
+    expect: 'fundraising'
+  - prompt: 'build 3-year three-statement pro forma financial models'
+    expect: 'financial-modeling'
+  - prompt: 'prepare quarterly board meeting update decks for existing investors'
+    expect: 'board-reporting'

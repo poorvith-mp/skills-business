@@ -1,7 +1,16 @@
 should_fire:
-  - "help with business plan"
-  - "build the plan"
-  - "run business-plan workflow"
+  - 'write a comprehensive business plan for a new B2B SaaS startup'
+  - 'draft an executive summary outlining our market opportunity, problem, and solution'
+  - 'structure the operational, marketing, and financial sections of a business plan'
+  - 'create a business plan to submit for a bank loan or government grant'
+  - 'turn our rough startup concept into a structured commercial business plan'
+  - 'write the company description, management team, and market analysis chapters'
+  - 'develop a business plan for expanding our software company into Europe'
+  - 'detail risk factors, mitigation strategies, and capital requirements in a plan'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design a 12-slide pitch deck for venture capital investors'
+    expect: 'investor-deck'
+  - prompt: 'shape high-level competitive moats and strategic positioning'
+    expect: 'business-strategy'
+  - prompt: 'build a multi-year financial cash flow spreadsheet model'
+    expect: 'financial-modeling'

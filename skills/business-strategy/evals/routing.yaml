@@ -1,7 +1,16 @@
 should_fire:
-  - "help with business strategy"
-  - "decide which markets and business models to play in"
-  - "run business-strategy workflow"
+  - 'help us evaluate strategic options for expanding into the enterprise market'
+  - 'define our defensible competitive moat: network effects, switching costs, scale'
+  - 'conduct a SWOT analysis and strategic positioning assessment for our company'
+  - 'how should we respond strategically to a well-funded competitor entering our space'
+  - 'identify strategic flywheels that strengthen our core business over time'
+  - 'evaluate whether we should pursue a vertical integration or modular platform strategy'
+  - 'structure our company''s long-term 3-year strategic pillars and priorities'
+  - 'stress-test our business model assumptions against macroeconomic headwinds'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write a formal business plan document with 5-year financials'
+    expect: 'business-plan'
+  - prompt: 'analyze market trends and industry research reports'
+    expect: 'market-trends'
+  - prompt: 'structure a tactical 90-day marketing growth plan'
+    expect: 'growth-plan'

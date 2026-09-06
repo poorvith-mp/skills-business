@@ -1,7 +1,16 @@
 should_fire:
-  - "help with operations"
-  - "own process, capacity planning, exception handling and performance tracking day to day."
-  - "run operations workflow"
+  - 'streamline our day-to-day business operations to eliminate manual bottlenecks'
+  - 'establish standard operational procedures (SOPs) for weekly recurring workflows'
+  - 'design an operational cadence and meeting rhythm for our remote company'
+  - 'audit our operational SaaS tool subscriptions and eliminate redundant apps'
+  - 'manage business operations checklist for opening a new office location'
+  - 'coordinate cross-departmental operations to ensure smooth customer order fulfillment'
+  - 'set up an operational ticketing system for internal employee IT and admin requests'
+  - 'track operational efficiency metrics and identify workflow handoff delays'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'redesign an entire broken business process from the ground up'
+    expect: 'process-redesign'
+  - prompt: 'manage multiple standalone business units across a portfolio'
+    expect: 'portfolio-ops'
+  - prompt: 'evaluate and negotiate procurement contracts with enterprise vendors'
+    expect: 'vendor-selection'

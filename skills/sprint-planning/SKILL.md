@@ -1,7 +1,9 @@
 ---
 name: sprint-planning
+group: Product and delivery
 description: >-
-  Prioritise features, allocate capacity and make the scope trade-offs explicit.
+  Prioritise features, allocate capacity and make the scope trade-offs explicit. Use when running
+  agile ceremonies, story point sizing, or sprint backlogs.
 ---
 # Sprint Planning
 

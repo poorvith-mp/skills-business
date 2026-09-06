@@ -1,7 +1,9 @@
 ---
 name: board-reporting
+group: Fundraising and board
 description: >-
-  Draft the board pack: executive summary, financial dashboard, initiative updates and governance agenda.
+  Draft the board pack: executive summary, financial dashboard, initiative updates and governance
+  agenda. Use when preparing quarterly board decks, CEO letters, or KPI packets.
 ---
 # Board Reporting
 

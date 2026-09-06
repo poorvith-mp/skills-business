@@ -1,7 +1,16 @@
 should_fire:
-  - "help with chief of staff"
-  - "run the operating cadence behind a leader"
-  - "run chief-of-staff workflow"
+  - 'prioritize the CEO''s calendar and strategic focus to protect executive time'
+  - 'design the agenda and prep executive leaders for weekly leadership staff meetings'
+  - 'manage executive follow-through to ensure leadership decisions turn into action'
+  - 'ghostwrite high-impact internal communications and all-hands talking points for the CEO'
+  - 'lead special strategic projects that do not naturally fit into an existing department'
+  - 'serve as a confidential sounding board for executive dilemmas and leadership decisions'
+  - 'organize the quarterly executive strategic planning offsite from agenda to outcomes'
+  - 'track company-wide executive commitments and ensure accountability across leadership'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'prepare formal quarterly board of directors decks'
+    expect: 'board-reporting'
+  - prompt: 'write company-wide quarterly OKRs and key results'
+    expect: 'okrs'
+  - prompt: 'manage daily business office operations and vendor tasks'
+    expect: 'operations'

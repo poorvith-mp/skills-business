@@ -1,7 +1,9 @@
 ---
 name: okrs
+group: Product and delivery
 description: >-
   Write measurable objectives and key results with cascading alignment from company to individual.
+  Use when drafting company or team OKRs, metric ladders, and scoring.
 ---
 # Okrs
 

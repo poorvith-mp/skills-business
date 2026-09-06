@@ -1,7 +1,16 @@
 should_fire:
-  - "help with product management"
-  - "own the lifecycle"
-  - "run product-management workflow"
+  - 'write a comprehensive Product Requirement Document (PRD) for our new team workspace feature'
+  - 'facilitate a user story mapping session to define the MVP scope of our mobile app'
+  - 'prioritize our product feature backlog using the RICE framework (Reach, Impact, Confidence, Effort)'
+  - 'define success metrics and key tracking indicators for an upcoming feature launch'
+  - 'break down complex customer feature requests into prioritized engineering epics and stories'
+  - 'balance feature work against technical debt and customer bug fixes in product planning'
+  - 'write clear user acceptance criteria and non-functional requirements in a PRD'
+  - 'translate customer feedback and sales requests into a coherent product roadmap'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write engineering technical specs and system architecture documents'
+    expect: 'spec-writing'
+  - prompt: 'run engineering agile sprint planning and estimate story points'
+    expect: 'sprint-planning'
+  - prompt: 'conduct customer interviews to uncover deep emotional pain points'
+    expect: 'customer-research'

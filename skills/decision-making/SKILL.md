@@ -1,7 +1,9 @@
 ---
 name: decision-making
+group: Strategy
 description: >-
-  Generate the option set, then choose: divergent techniques, then RACI, weighted scoring, decision trees, inversion and second-order thinking.
+  Generate options and choose: divergent methods, RACI, scoring, decision trees, and inversion.
+  Use when evaluating high-stakes decisions or trade-offs.
 ---
 # Decision Making
 

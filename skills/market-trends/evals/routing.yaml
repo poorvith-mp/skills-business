@@ -1,7 +1,16 @@
 should_fire:
-  - "help with market trends"
-  - "identify where a market is heading and size the opportunity, with sourced evidence rather than vibes."
-  - "run market-trends workflow"
+  - 'synthesize recent analyst reports and market sizing data for developer tools'
+  - 'identify emerging trends, tailwinds, and risks in the AI agent market'
+  - 'analyze market shifts affecting traditional SaaS enterprise purchasing in 2026'
+  - 'evaluate Total Addressable Market (TAM), SAM, and SOM for our product category'
+  - 'track industry consolidation, M&A activity, and venture funding trends'
+  - 'summarize macro regulatory and technological headwinds facing our sector'
+  - 'identify white space opportunities created by recent shifts in remote work'
+  - 'conduct market research on enterprise adoption rates of open-source tooling'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct customer interviews to uncover buyer language and pain'
+    expect: 'customer-research'
+  - prompt: 'conduct an academic literature review with citation analysis'
+    expect: 'literature-review'
+  - prompt: 'shape long-term corporate competitive strategy'
+    expect: 'business-strategy'

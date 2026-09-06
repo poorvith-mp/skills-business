@@ -1,7 +1,9 @@
 ---
 name: chief-of-staff
+group: People
 description: >-
-  Run the operating cadence behind a leader: priority triage, meeting and decision hygiene, follow-through.
+  Run the operating cadence behind a leader: priority triage, meeting and decision hygiene,
+  follow-through. Use when managing CEO priorities, executive meetings, or strategic cadence.
 ---
 # Chief Of Staff
 

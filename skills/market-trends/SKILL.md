@@ -1,7 +1,9 @@
 ---
 name: market-trends
+group: Strategy
 description: >-
-  Identify where a market is heading and size the opportunity, with sourced evidence rather than vibes.
+  Identify where a market is heading and size the opportunity, with sourced evidence rather than
+  vibes. Use when analyzing industry reports, market shifts, or macro trends.
 ---
 # Market Trends
 

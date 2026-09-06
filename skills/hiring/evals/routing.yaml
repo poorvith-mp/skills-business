@@ -1,7 +1,16 @@
 should_fire:
-  - "help with hiring"
-  - "run it end to end"
-  - "run hiring workflow"
+  - 'write an attractive, inclusive job description for a Senior Backend Engineer'
+  - 'design a structured interview rubric and scorecard to reduce hiring bias'
+  - 'create practical, take-home technical evaluation exercises that respect candidate time'
+  - 'benchmark compensation bands (salary and equity) for early startup engineering hires'
+  - 'structure a behavioral interview question bank mapping to our core company values'
+  - 'design a candidate onboarding checklist to get new hires productive in their first two weeks'
+  - 'how to evaluate executive candidates for VP of Sales during final interviews'
+  - 'write offer letters and candidate rejection emails with warmth and professional respect'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'resolve contractor vs employee classification and legal compliance'
+    expect: 'employment-law'
+  - prompt: 'coach employees and deliver difficult performance feedback'
+    expect: 'feedback-writing'
+  - prompt: 'navigate team dynamics and interpersonal executive conflicts'
+    expect: 'team-dynamics'

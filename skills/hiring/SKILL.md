@@ -1,7 +1,9 @@
 ---
 name: hiring
+group: People
 description: >-
-  Run it end to end: headcount planning, levelling, sourcing, assessment, offer and the first ninety days.
+  Run it end to end: headcount planning, levelling, sourcing, assessment, offer and the first
+  ninety days. Use when designing job descriptions, interview scorecards, or compensation.
 ---
 # Hiring
 

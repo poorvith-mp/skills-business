@@ -1,7 +1,16 @@
 should_fire:
-  - "help with board reporting"
-  - "draft the board pack"
-  - "run board-reporting workflow"
+  - 'prepare the quarterly board meeting deck for our investors and directors'
+  - 'write an executive CEO letter summarizing company performance, misses, and outlook'
+  - 'structure board discussions to focus on strategic decisions rather than operational status'
+  - 'compile executive KPI scorecards tracking burn rate, runway, ARR, and headcount'
+  - 'frame bad news or missed quarterly revenue targets constructively for the board'
+  - 'document formal board resolutions, meeting minutes, and corporate governance actions'
+  - 'design a standardized monthly investor update template that takes under 30 minutes to write'
+  - 'prepare answers to anticipated board member concerns about competitive threats'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'create an investor pitch deck for raising new capital'
+    expect: 'investor-deck'
+  - prompt: 'build monthly operational KPI reports for internal department leads'
+    expect: 'internal-reporting'
+  - prompt: 'model cash flow, runway, and forward financial forecasts'
+    expect: 'financial-modeling'
