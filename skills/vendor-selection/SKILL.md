@@ -5,6 +5,7 @@ description: >-
   Run RFI/RFP, scoring matrices, contract negotiation and vendor performance tracking. Use when
   evaluating RFP proposals, scoring vendors, or procurement.
 ---
+
 # Vendor Selection
 
 Vendor decisions are usually made on price alone by default, but price is only one of several factors that determine whether a vendor relationship actually works out — get the evaluation criteria right before comparing quotes, or the comparison itself will mislead.
