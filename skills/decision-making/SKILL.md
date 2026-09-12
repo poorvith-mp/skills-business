@@ -1,5 +1,6 @@
 ---
 name: decision-making
+last_reviewed: 2026-09-06
 group: Strategy
 description: >-
   Generate options and choose: divergent methods, RACI, scoring, decision trees, and inversion.

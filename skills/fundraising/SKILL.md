@@ -1,5 +1,6 @@
 ---
 name: fundraising
+last_reviewed: 2026-09-06
 group: Fundraising and board
 description: >-
   Run the raise: target investor list, data room, diligence responses, term sheet review and close

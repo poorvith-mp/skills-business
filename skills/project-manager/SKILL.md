@@ -1,5 +1,6 @@
 ---
 name: project-manager
+last_reviewed: 2026-09-06
 description: Moved to project-planning in skills-business. Removed in v4.1.
 deprecated: true
 ---

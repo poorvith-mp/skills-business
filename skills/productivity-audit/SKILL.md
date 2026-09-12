@@ -1,5 +1,6 @@
 ---
 name: productivity-audit
+last_reviewed: 2026-09-06
 description: Moved to productivity-audit in skills-personal. Removed in v4.1.
 deprecated: true
 ---

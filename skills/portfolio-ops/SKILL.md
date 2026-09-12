@@ -1,5 +1,6 @@
 ---
 name: portfolio-ops
+last_reviewed: 2026-09-06
 group: Operations
 description: >-
   Allocate resources and sequence work across several projects competing for the same people. Use

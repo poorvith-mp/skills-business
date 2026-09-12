@@ -1,5 +1,6 @@
 ---
 name: board-reporting
+last_reviewed: 2026-09-06
 group: Fundraising and board
 description: Draft the board pack: executive summary, financial dashboard, and governance agenda. For investor metrics, see saas-metrics. Use when preparing quarterly board decks or KPI packets.
 ---

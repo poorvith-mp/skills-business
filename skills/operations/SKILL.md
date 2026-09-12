@@ -1,5 +1,6 @@
 ---
 name: operations
+last_reviewed: 2026-09-06
 group: Operations
 description: >-
   Own process, capacity planning, exception handling and performance tracking day to day. Use when

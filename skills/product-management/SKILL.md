@@ -1,5 +1,6 @@
 ---
 name: product-management
+last_reviewed: 2026-09-06
 group: Product and delivery
 description: >-
   Own the lifecycle: discovery, strategy, roadmap, stakeholder alignment and outcome tracking. Use

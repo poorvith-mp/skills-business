@@ -1,5 +1,6 @@
 ---
 name: sprint-planning
+last_reviewed: 2026-09-06
 group: Product and delivery
 description: >-
   Prioritise features, allocate capacity and make the scope trade-offs explicit. Use when running

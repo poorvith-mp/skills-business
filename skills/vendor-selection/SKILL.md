@@ -1,5 +1,6 @@
 ---
 name: vendor-selection
+last_reviewed: 2026-09-06
 group: Operations
 description: >-
   Run RFI/RFP, scoring matrices, contract negotiation and vendor performance tracking. Use when

@@ -1,5 +1,6 @@
 ---
 name: investor-deck
+last_reviewed: 2026-09-06
 group: Fundraising and board
 description: Build the raise narrative: problem-solution, TAM/SAM/SOM, traction and model. For full pro formas, see business-plan. Use when structuring seed, Series A, or venture pitch decks.
 ---

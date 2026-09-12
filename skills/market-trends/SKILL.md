@@ -1,5 +1,6 @@
 ---
 name: market-trends
+last_reviewed: 2026-09-06
 group: Strategy
 description: >-
   Identify where a market is heading and size the opportunity, with sourced evidence rather than

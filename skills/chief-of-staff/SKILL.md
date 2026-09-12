@@ -1,5 +1,6 @@
 ---
 name: chief-of-staff
+last_reviewed: 2026-09-06
 group: People
 description: >-
   Run the operating cadence behind a leader: priority triage, meeting and decision hygiene,

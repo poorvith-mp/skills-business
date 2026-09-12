@@ -1,5 +1,6 @@
 ---
 name: change-management
+last_reviewed: 2026-09-06
 group: People
 description: >-
   Plan organizational change with ADKAR: impact assessment, alignment, and adoption tracking. Use

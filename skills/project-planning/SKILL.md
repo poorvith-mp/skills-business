@@ -1,5 +1,6 @@
 ---
 name: project-planning
+last_reviewed: 2026-09-06
 group: Product and delivery
 description: >-
   Convert a spec into scoped, sequenced tasks with estimates, dependencies, timeline and owners.

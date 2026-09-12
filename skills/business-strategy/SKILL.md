@@ -1,5 +1,6 @@
 ---
 name: business-strategy
+last_reviewed: 2026-09-06
 group: Strategy
 description: >-
   Decide which markets and business models to play in: market entry, model design and growth

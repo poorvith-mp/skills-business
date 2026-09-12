@@ -1,5 +1,6 @@
 ---
 name: vendor-procurement-manager
+last_reviewed: 2026-09-06
 description: Moved to vendor-selection in skills-business. Removed in v4.1.
 deprecated: true
 ---

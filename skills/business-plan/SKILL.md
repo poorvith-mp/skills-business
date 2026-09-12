@@ -1,5 +1,6 @@
 ---
 name: business-plan
+last_reviewed: 2026-09-06
 group: Strategy
 description: Build the plan: market analysis, value proposition, and revenue model. For pitch decks, see investor-deck. Use when drafting formal business plans, executive summaries, or pro formas.
 ---

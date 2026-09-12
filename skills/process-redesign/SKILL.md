@@ -1,5 +1,6 @@
 ---
 name: process-redesign
+last_reviewed: 2026-09-06
 group: Operations
 description: >-
   Map the current state, find the bottlenecks and waste, and redesign before automating anything.

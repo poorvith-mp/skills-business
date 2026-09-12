@@ -1,5 +1,6 @@
 ---
 name: team-dynamics
+last_reviewed: 2026-09-06
 group: People
 description: >-
   Diagnose motivation, conflict, structure and the cross-cultural blind spots nobody names out

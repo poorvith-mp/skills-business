@@ -1,5 +1,6 @@
 ---
 name: negotiation
+last_reviewed: 2026-09-06
 group: Fundraising and board
 description: >-
   Prepare with BATNA assessment, concession planning and scripts for contracts, vendor terms and

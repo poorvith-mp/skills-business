@@ -1,5 +1,6 @@
 ---
 name: okrs
+last_reviewed: 2026-09-06
 group: Product and delivery
 description: >-
   Write measurable objectives and key results with cascading alignment from company to individual.

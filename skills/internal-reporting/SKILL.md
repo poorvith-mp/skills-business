@@ -1,5 +1,6 @@
 ---
 name: internal-reporting
+last_reviewed: 2026-09-06
 group: Reporting
 description: >-
   Turn company data into dashboards and KPI tracking with a stated recommendation. Not channel

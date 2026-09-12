@@ -1,5 +1,6 @@
 ---
 name: hiring
+last_reviewed: 2026-09-06
 group: People
 description: >-
   Run it end to end: headcount planning, levelling, sourcing, assessment, offer and the first
