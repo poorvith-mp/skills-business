@@ -1,8 +1,8 @@
 # skills-business
 
-Business skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
+Business skills collection for Claude Code, Gemini App, Gemini CLI, Antigravity, Cursor, Codex, Cline, Roo Code, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
 
-- **Version**: `v4.0.0`
+- **Version**: `v4.1.0`
 - **Total Skills**: `23`
 - **License**: MIT
 - **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)
@@ -17,6 +17,19 @@ npx skills add poorvith-mp/skills-business
 Or install individual skills directly:
 ```bash
 npx skills add poorvith-mp/skills-business --skill <skill-id>
+```
+
+### Gemini App (gemini.google.com)
+
+Upload any `SKILL.md` file or `.skill` bundle via **Settings → Skills → Import** in the Gemini App.
+
+### Manual (any agent)
+
+Clone this repo and copy the skill folder to your agent's skills directory:
+```bash
+git clone https://github.com/poorvith-mp/skills-business.git
+cp -R skills-business/skills/<skill-id> ~/.gemini/skills/   # Gemini CLI
+cp -R skills-business/skills/<skill-id> ~/.claude/skills/    # Claude Code
 ```
 
 ## Skills in this Collection
